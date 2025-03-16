@@ -1,0 +1,13 @@
+Metadata-Version: 2.2
+Name: mlproject
+Version: 0.0.0
+Summary: A small python package for ml app
+Home-page: https://github.com/kushswaroop1003/End-to-End-MLflow/Kush Swaroop/End to End MLflow
+Author: Kush Swaroop
+Author-email: kush.swaroop2014@gmail.com
+Project-URL: Bug Tracker, https://github.com/kushswaroop1003/End-to-End-MLflow/Kush Swaroop/End to End MLflow/issues
+Dynamic: author
+Dynamic: author-email
+Dynamic: home-page
+Dynamic: project-url
+Dynamic: summary

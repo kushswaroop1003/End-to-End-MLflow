@@ -1,0 +1,9 @@
+prefix=D:/KC/End to End MLflow/End_to_End_MLflow/myenv/Library 
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: OpenSSL
+Description: Secure Sockets Layer and cryptography libraries and tools
+Requires: libssl libcrypto
+Version: 3.0.16 
