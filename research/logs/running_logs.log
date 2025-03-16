@@ -1,0 +1,8 @@
+[2025-03-15 13:46:24,074:INFO: common:yaml file: config\config.yaml loaded successfully]
+[2025-03-15 13:46:24,088:INFO: common:yaml file: params.yaml loaded successfully]
+[2025-03-15 13:46:24,091:INFO: common:yaml file: schema.yaml loaded successfully]
+[2025-03-15 13:46:24,091:INFO: common:created directory at: artifacts]
+[2025-03-15 13:46:24,091:INFO: common:created directory at: articacts/data_transformation]
+[2025-03-15 13:46:24,132:INFO: 4188422013:Splited data into training and test sets]
+[2025-03-15 13:46:24,132:INFO: 4188422013:(1199, 12)]
+[2025-03-15 13:46:24,138:INFO: 4188422013:(400, 12)]
