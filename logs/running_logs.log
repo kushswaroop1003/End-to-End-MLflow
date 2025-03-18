@@ -876,3 +876,853 @@ x==========x]
 [2025-03-16 00:00:13,747:INFO: main:>>>>>> stage Model Trainer stage completed <<<<<<
 
 x==========x]
+[2025-03-17 12:57:26,484:INFO: common:yaml file: config\config.yaml loaded successfully]
+[2025-03-17 12:57:26,495:INFO: common:yaml file: params.yaml loaded successfully]
+[2025-03-17 12:57:26,509:INFO: common:yaml file: schema.yaml loaded successfully]
+[2025-03-17 12:57:26,511:INFO: common:created directory at: artifacts]
+[2025-03-17 12:57:26,511:INFO: common:created directory at: artifacts]
+[2025-03-17 13:01:48,548:INFO: common:yaml file: config\config.yaml loaded successfully]
+[2025-03-17 13:01:48,548:INFO: common:yaml file: params.yaml loaded successfully]
+[2025-03-17 13:01:48,552:INFO: common:yaml file: schema.yaml loaded successfully]
+[2025-03-17 13:01:48,554:INFO: common:created directory at: artifacts]
+[2025-03-17 13:01:48,554:INFO: common:created directory at: artifacts]
+[2025-03-17 13:28:55,660:INFO: common:yaml file: config\config.yaml loaded successfully]
+[2025-03-17 13:28:55,663:INFO: common:yaml file: params.yaml loaded successfully]
+[2025-03-17 13:28:55,666:INFO: common:yaml file: schema.yaml loaded successfully]
+[2025-03-17 13:28:55,667:INFO: common:created directory at: artifacts]
+[2025-03-17 13:28:55,668:INFO: common:created directory at: artifacts]
+[2025-03-17 13:31:53,317:INFO: common:yaml file: config\config.yaml loaded successfully]
+[2025-03-17 13:31:53,321:INFO: common:yaml file: params.yaml loaded successfully]
+[2025-03-17 13:31:53,324:INFO: common:yaml file: schema.yaml loaded successfully]
+[2025-03-17 13:31:53,324:INFO: common:created directory at: artifacts]
+[2025-03-17 13:31:53,324:INFO: common:created directory at: artifacts]
+[2025-03-17 13:39:06,360:INFO: common:yaml file: config\config.yaml loaded successfully]
+[2025-03-17 13:39:06,363:INFO: common:yaml file: params.yaml loaded successfully]
+[2025-03-17 13:39:06,370:INFO: common:yaml file: schema.yaml loaded successfully]
+[2025-03-17 13:39:06,370:INFO: common:created directory at: artifacts]
+[2025-03-17 13:39:06,370:INFO: common:created directory at: artifacts]
+[2025-03-17 13:39:06,370:INFO: common:created directory at: artifacts/model_evaluation]
+[2025-03-17 13:39:06,865:INFO: common:json file saved at: artifacts\model_evaluation\metrics.json]
+[2025-03-18 00:21:26,941:INFO: main:Welcome to our custom login]
+[2025-03-18 00:21:26,941:INFO: main:>>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-03-18 00:21:26,941:INFO: common:yaml file: config\config.yaml loaded successfully]
+[2025-03-18 00:21:26,941:INFO: common:yaml file: params.yaml loaded successfully]
+[2025-03-18 00:21:26,954:INFO: common:yaml file: schema.yaml loaded successfully]
+[2025-03-18 00:21:26,963:INFO: common:created directory at: artifacts]
+[2025-03-18 00:21:26,991:INFO: common:created directory at: artifacts/data_ingestion]
+[2025-03-18 00:21:27,730:ERROR: main:HTTP Error 404: Not Found]
+Traceback (most recent call last):
+  File "d:\KC\End to End MLflow\main.py", line 16, in <module>
+    data_ingestion.main()
+  File "d:\kc\end to end mlflow\src\mlproject\pipeline\stage01_data_ingestion.py", line 17, in main
+    data_ingestion.download_file()
+  File "d:\kc\end to end mlflow\src\mlproject\components\data_ingestion.py", line 16, in download_file
+    filename, headers = request.urlretrieve(
+                        ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 240, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+                            ^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 215, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 521, in open
+    response = meth(req, response)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 630, in http_response
+    response = self.parent.error(
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 559, in error
+    return self._call_chain(*args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 492, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 639, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[2025-03-18 00:36:38,711:INFO: main:Welcome to our custom login]
+[2025-03-18 00:36:38,711:INFO: main:>>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-03-18 00:36:38,714:INFO: common:yaml file: config\config.yaml loaded successfully]
+[2025-03-18 00:36:38,716:INFO: common:yaml file: params.yaml loaded successfully]
+[2025-03-18 00:36:38,717:INFO: common:yaml file: schema.yaml loaded successfully]
+[2025-03-18 00:36:38,717:INFO: common:created directory at: artifacts]
+[2025-03-18 00:36:38,719:INFO: common:created directory at: artifacts/data_ingestion]
+[2025-03-18 00:36:39,437:ERROR: main:HTTP Error 404: Not Found]
+Traceback (most recent call last):
+  File "d:\KC\End to End MLflow\main.py", line 16, in <module>
+    data_ingestion.main()
+  File "d:\kc\end to end mlflow\src\mlproject\pipeline\stage01_data_ingestion.py", line 17, in main
+    data_ingestion.download_file()
+  File "d:\kc\end to end mlflow\src\mlproject\components\data_ingestion.py", line 16, in download_file
+    filename, headers = request.urlretrieve(
+                        ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 240, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+                            ^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 215, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 521, in open
+    response = meth(req, response)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 630, in http_response
+    response = self.parent.error(
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 559, in error
+    return self._call_chain(*args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 492, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 639, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[2025-03-18 00:47:08,216:INFO: main:Welcome to our custom login]
+[2025-03-18 00:47:08,216:INFO: main:>>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-03-18 00:47:08,216:INFO: common:yaml file: config\config.yaml loaded successfully]
+[2025-03-18 00:47:08,232:INFO: common:yaml file: params.yaml loaded successfully]
+[2025-03-18 00:47:08,250:INFO: common:yaml file: schema.yaml loaded successfully]
+[2025-03-18 00:47:08,250:INFO: common:created directory at: artifacts]
+[2025-03-18 00:47:08,252:INFO: common:created directory at: artifacts/data_ingestion]
+[2025-03-18 00:47:09,034:ERROR: main:HTTP Error 404: Not Found]
+Traceback (most recent call last):
+  File "d:\KC\End to End MLflow\main.py", line 16, in <module>
+    data_ingestion.main()
+  File "d:\kc\end to end mlflow\src\mlproject\pipeline\stage01_data_ingestion.py", line 17, in main
+    data_ingestion.download_file()
+  File "d:\kc\end to end mlflow\src\mlproject\components\data_ingestion.py", line 16, in download_file
+    filename, headers = request.urlretrieve(
+                        ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 240, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+                            ^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 215, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 521, in open
+    response = meth(req, response)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 630, in http_response
+    response = self.parent.error(
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 559, in error
+    return self._call_chain(*args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 492, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 639, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[2025-03-18 00:49:11,456:INFO: main:Welcome to our custom login]
+[2025-03-18 00:49:11,456:INFO: main:>>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-03-18 00:49:11,456:INFO: common:yaml file: config\config.yaml loaded successfully]
+[2025-03-18 00:49:11,456:INFO: common:yaml file: params.yaml loaded successfully]
+[2025-03-18 00:49:11,472:INFO: common:yaml file: schema.yaml loaded successfully]
+[2025-03-18 00:49:11,473:INFO: common:created directory at: artifacts]
+[2025-03-18 00:49:11,473:INFO: common:created directory at: artifacts/data_ingestion]
+[2025-03-18 00:49:12,260:ERROR: main:HTTP Error 404: Not Found]
+Traceback (most recent call last):
+  File "d:\KC\End to End MLflow\main.py", line 16, in <module>
+    data_ingestion.main()
+  File "d:\kc\end to end mlflow\src\mlproject\pipeline\stage01_data_ingestion.py", line 17, in main
+    data_ingestion.download_file()
+  File "d:\kc\end to end mlflow\src\mlproject\components\data_ingestion.py", line 16, in download_file
+    filename, headers = request.urlretrieve(
+                        ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 240, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+                            ^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 215, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 521, in open
+    response = meth(req, response)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 630, in http_response
+    response = self.parent.error(
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 559, in error
+    return self._call_chain(*args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 492, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 639, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[2025-03-18 00:54:04,364:INFO: main:Welcome to our custom login]
+[2025-03-18 00:54:04,364:INFO: main:>>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-03-18 00:54:04,364:INFO: common:yaml file: config\config.yaml loaded successfully]
+[2025-03-18 00:54:04,364:INFO: common:yaml file: params.yaml loaded successfully]
+[2025-03-18 00:54:04,372:INFO: common:yaml file: schema.yaml loaded successfully]
+[2025-03-18 00:54:04,374:INFO: common:created directory at: artifacts]
+[2025-03-18 00:54:04,375:INFO: common:created directory at: artifacts/data_ingestion]
+[2025-03-18 00:54:05,084:ERROR: main:HTTP Error 404: Not Found]
+Traceback (most recent call last):
+  File "d:\KC\End to End MLflow\main.py", line 16, in <module>
+    data_ingestion.main()
+  File "d:\kc\end to end mlflow\src\mlproject\pipeline\stage01_data_ingestion.py", line 17, in main
+    data_ingestion.download_file()
+  File "d:\kc\end to end mlflow\src\mlproject\components\data_ingestion.py", line 16, in download_file
+    filename, headers = request.urlretrieve(
+                        ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 240, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+                            ^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 215, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 521, in open
+    response = meth(req, response)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 630, in http_response
+    response = self.parent.error(
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 559, in error
+    return self._call_chain(*args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 492, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 639, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[2025-03-18 10:09:51,176:INFO: main:Welcome to our custom login]
+[2025-03-18 10:09:51,177:INFO: main:>>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-03-18 10:09:51,178:ERROR: main:while scanning a simple key
+  in "config\config.yaml", line 5, column 3
+could not find expected ':'
+  in "config\config.yaml", line 6, column 3]
+Traceback (most recent call last):
+  File "d:\KC\End to End MLflow\main.py", line 16, in <module>
+    data_ingestion.main()
+  File "d:\kc\end to end mlflow\src\mlproject\pipeline\stage01_data_ingestion.py", line 14, in main
+    config = ConfigurationManager()
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\kc\end to end mlflow\src\mlproject\config\configuration.py", line 16, in __init__
+    self.config = read_yaml(config_filepath)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\KC\End to End MLflow\.venv\Lib\site-packages\ensure\main.py", line 872, in __call__
+    return_val = self.f(*args, **kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\kc\end to end mlflow\src\mlproject\utils\common.py", line 36, in read_yaml
+    raise e
+  File "d:\kc\end to end mlflow\src\mlproject\utils\common.py", line 30, in read_yaml
+    content = yaml.safe_load(yaml_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\KC\End to End MLflow\.venv\Lib\site-packages\yaml\__init__.py", line 125, in safe_load
+    return load(stream, SafeLoader)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\KC\End to End MLflow\.venv\Lib\site-packages\yaml\__init__.py", line 81, in load
+    return loader.get_single_data()
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\KC\End to End MLflow\.venv\Lib\site-packages\yaml\constructor.py", line 49, in get_single_data
+    node = self.get_single_node()
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\KC\End to End MLflow\.venv\Lib\site-packages\yaml\composer.py", line 36, in get_single_node
+    document = self.compose_document()
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\KC\End to End MLflow\.venv\Lib\site-packages\yaml\composer.py", line 55, in compose_document
+    node = self.compose_node(None, None)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\KC\End to End MLflow\.venv\Lib\site-packages\yaml\composer.py", line 84, in compose_node
+    node = self.compose_mapping_node(anchor)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\KC\End to End MLflow\.venv\Lib\site-packages\yaml\composer.py", line 133, in compose_mapping_node
+    item_value = self.compose_node(node, item_key)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\KC\End to End MLflow\.venv\Lib\site-packages\yaml\composer.py", line 84, in compose_node
+    node = self.compose_mapping_node(anchor)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\KC\End to End MLflow\.venv\Lib\site-packages\yaml\composer.py", line 127, in compose_mapping_node
+    while not self.check_event(MappingEndEvent):
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\KC\End to End MLflow\.venv\Lib\site-packages\yaml\parser.py", line 98, in check_event
+    self.current_event = self.state()
+                         ^^^^^^^^^^^^
+  File "D:\KC\End to End MLflow\.venv\Lib\site-packages\yaml\parser.py", line 428, in parse_block_mapping_key
+    if self.check_token(KeyToken):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\KC\End to End MLflow\.venv\Lib\site-packages\yaml\scanner.py", line 115, in check_token
+    while self.need_more_tokens():
+          ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\KC\End to End MLflow\.venv\Lib\site-packages\yaml\scanner.py", line 152, in need_more_tokens
+    self.stale_possible_simple_keys()
+  File "D:\KC\End to End MLflow\.venv\Lib\site-packages\yaml\scanner.py", line 291, in stale_possible_simple_keys
+    raise ScannerError("while scanning a simple key", key.mark,
+yaml.scanner.ScannerError: while scanning a simple key
+  in "config\config.yaml", line 5, column 3
+could not find expected ':'
+  in "config\config.yaml", line 6, column 3
+[2025-03-18 10:23:00,281:INFO: main:Welcome to our custom login]
+[2025-03-18 10:23:00,281:INFO: main:>>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-03-18 10:23:00,303:INFO: common:yaml file: config\config.yaml loaded successfully]
+[2025-03-18 10:23:00,303:INFO: common:yaml file: params.yaml loaded successfully]
+[2025-03-18 10:23:00,313:INFO: common:yaml file: schema.yaml loaded successfully]
+[2025-03-18 10:23:00,313:INFO: common:created directory at: artifacts]
+[2025-03-18 10:23:00,313:INFO: common:created directory at: artifacts/data_ingestion]
+[2025-03-18 10:23:00,981:INFO: data_ingestion:artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 26176
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "f751ec0917e15a3dc07c3094a49fb99713109dd8a9f29150bb5d187ec17facdf"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 187C:23CBE2:3B198B:9FEFA2:67D8FB8C
+Accept-Ranges: bytes
+Date: Tue, 18 Mar 2025 04:53:01 GMT
+Via: 1.1 varnish
+X-Served-By: cache-del21741-DEL
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1742273581.237496,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: d800db7e5d2844f09344c40bcd7de24feea89b0b
+Expires: Tue, 18 Mar 2025 04:58:01 GMT
+Source-Age: 160
+
+]
+[2025-03-18 10:23:00,999:INFO: main:>>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-03-18 10:23:00,999:INFO: main:>>>>>> stage Data Validation stage started <<<<<<]
+[2025-03-18 10:23:01,004:INFO: common:yaml file: config\config.yaml loaded successfully]
+[2025-03-18 10:23:01,004:INFO: common:yaml file: params.yaml loaded successfully]
+[2025-03-18 10:23:01,004:INFO: common:yaml file: schema.yaml loaded successfully]
+[2025-03-18 10:23:01,004:INFO: common:created directory at: artifacts]
+[2025-03-18 10:23:01,010:INFO: common:created directory at: artifacts/data_validation]
+[2025-03-18 10:23:01,066:INFO: main:>>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2025-03-18 10:23:01,066:INFO: main:>>>>>> stage Data Transformation stage started <<<<<<]
+[2025-03-18 10:23:01,081:INFO: common:yaml file: config\config.yaml loaded successfully]
+[2025-03-18 10:23:01,081:INFO: common:yaml file: params.yaml loaded successfully]
+[2025-03-18 10:23:01,081:INFO: common:yaml file: schema.yaml loaded successfully]
+[2025-03-18 10:23:01,081:INFO: common:created directory at: artifacts]
+[2025-03-18 10:23:01,088:INFO: common:created directory at: artifacts/data_transformation]
+[2025-03-18 10:23:01,108:INFO: data_transformation:Splited data into training and test sets]
+[2025-03-18 10:23:01,108:INFO: data_transformation:(1199, 12)]
+[2025-03-18 10:23:01,108:INFO: data_transformation:(400, 12)]
+[2025-03-18 10:23:01,108:INFO: main:>>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2025-03-18 10:23:01,114:INFO: main:>>>>>> stage Model Trainer stage started <<<<<<]
+[2025-03-18 10:23:01,118:INFO: common:yaml file: config\config.yaml loaded successfully]
+[2025-03-18 10:23:01,119:INFO: common:yaml file: params.yaml loaded successfully]
+[2025-03-18 10:23:01,121:INFO: common:yaml file: schema.yaml loaded successfully]
+[2025-03-18 10:23:01,123:INFO: common:created directory at: artifacts]
+[2025-03-18 10:23:01,123:INFO: common:created directory at: artifacts/model_trainer]
+[2025-03-18 10:23:01,204:INFO: main:>>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2025-03-18 10:29:49,018:INFO: main:Welcome to our custom login]
+[2025-03-18 10:29:49,018:INFO: main:>>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-03-18 10:29:49,025:INFO: common:yaml file: config\config.yaml loaded successfully]
+[2025-03-18 10:29:49,026:INFO: common:yaml file: params.yaml loaded successfully]
+[2025-03-18 10:29:49,026:INFO: common:yaml file: schema.yaml loaded successfully]
+[2025-03-18 10:29:49,026:INFO: common:created directory at: artifacts]
+[2025-03-18 10:29:49,029:INFO: common:created directory at: artifacts/data_ingestion]
+[2025-03-18 10:29:49,914:INFO: data_ingestion:artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 26176
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "f751ec0917e15a3dc07c3094a49fb99713109dd8a9f29150bb5d187ec17facdf"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 187C:23CBE2:3B198B:9FEFA2:67D8FB8C
+Accept-Ranges: bytes
+Date: Tue, 18 Mar 2025 04:59:50 GMT
+Via: 1.1 varnish
+X-Served-By: cache-del21747-DEL
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1742273990.891584,VS0,VE266
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 6fd9f7f087d4d2f5b16d52089d1b2d170c0dd2f8
+Expires: Tue, 18 Mar 2025 05:04:50 GMT
+Source-Age: 0
+
+]
+[2025-03-18 10:29:49,940:INFO: main:>>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-03-18 10:29:49,940:INFO: main:>>>>>> stage Data Validation stage started <<<<<<]
+[2025-03-18 10:29:49,942:INFO: common:yaml file: config\config.yaml loaded successfully]
+[2025-03-18 10:29:49,942:INFO: common:yaml file: params.yaml loaded successfully]
+[2025-03-18 10:29:49,944:INFO: common:yaml file: schema.yaml loaded successfully]
+[2025-03-18 10:29:49,944:INFO: common:created directory at: artifacts]
+[2025-03-18 10:29:49,949:INFO: common:created directory at: artifacts/data_validation]
+[2025-03-18 10:29:49,985:INFO: main:>>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2025-03-18 10:29:49,985:INFO: main:>>>>>> stage Data Transformation stage started <<<<<<]
+[2025-03-18 10:29:49,988:INFO: common:yaml file: config\config.yaml loaded successfully]
+[2025-03-18 10:29:49,991:INFO: common:yaml file: params.yaml loaded successfully]
+[2025-03-18 10:29:49,994:INFO: common:yaml file: schema.yaml loaded successfully]
+[2025-03-18 10:29:49,994:INFO: common:created directory at: artifacts]
+[2025-03-18 10:29:49,995:INFO: common:created directory at: artifacts/data_transformation]
+[2025-03-18 10:29:50,015:INFO: data_transformation:Splited data into training and test sets]
+[2025-03-18 10:29:50,015:INFO: data_transformation:(1199, 12)]
+[2025-03-18 10:29:50,015:INFO: data_transformation:(400, 12)]
+[2025-03-18 10:29:50,015:INFO: main:>>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2025-03-18 10:29:50,015:INFO: main:>>>>>> stage Model Trainer stage started <<<<<<]
+[2025-03-18 10:29:50,015:INFO: common:yaml file: config\config.yaml loaded successfully]
+[2025-03-18 10:29:50,015:INFO: common:yaml file: params.yaml loaded successfully]
+[2025-03-18 10:29:50,023:INFO: common:yaml file: schema.yaml loaded successfully]
+[2025-03-18 10:29:50,023:INFO: common:created directory at: artifacts]
+[2025-03-18 10:29:50,023:INFO: common:created directory at: artifacts/model_trainer]
+[2025-03-18 10:29:50,080:INFO: main:>>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2025-03-18 10:29:50,080:INFO: main:>>>>>> stage Model evaluation stage started <<<<<<]
+[2025-03-18 10:29:50,080:INFO: common:yaml file: config\config.yaml loaded successfully]
+[2025-03-18 10:29:50,080:INFO: common:yaml file: params.yaml loaded successfully]
+[2025-03-18 10:29:50,080:INFO: common:yaml file: schema.yaml loaded successfully]
+[2025-03-18 10:29:50,080:INFO: common:created directory at: artifacts]
+[2025-03-18 10:29:50,080:ERROR: main:'ConfigurationManager' object has no attribute 'get_model_evaluation_config']
+Traceback (most recent call last):
+  File "d:\KC\End to End MLflow\main.py", line 57, in <module>
+    data_ingestion.main()
+  File "d:\kc\end to end mlflow\src\mlproject\pipeline\stage05_model_evaluation.py", line 13, in main
+    model_evaluation_config = config.get_model_evaluation_config()
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ConfigurationManager' object has no attribute 'get_model_evaluation_config'. Did you mean: 'get_data_validation_config'?
+[2025-03-18 10:31:32,025:INFO: main:Welcome to our custom login]
+[2025-03-18 10:31:32,025:INFO: main:>>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-03-18 10:31:32,041:INFO: common:yaml file: config\config.yaml loaded successfully]
+[2025-03-18 10:31:32,041:INFO: common:yaml file: params.yaml loaded successfully]
+[2025-03-18 10:31:32,041:INFO: common:yaml file: schema.yaml loaded successfully]
+[2025-03-18 10:31:32,041:INFO: common:created directory at: artifacts]
+[2025-03-18 10:31:32,041:INFO: common:created directory at: artifacts/data_ingestion]
+[2025-03-18 10:31:32,041:INFO: data_ingestion:File already exists of size: ~ 26 KB]
+[2025-03-18 10:31:32,041:INFO: main:>>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-03-18 10:31:32,041:INFO: main:>>>>>> stage Data Validation stage started <<<<<<]
+[2025-03-18 10:31:32,055:INFO: common:yaml file: config\config.yaml loaded successfully]
+[2025-03-18 10:31:32,055:INFO: common:yaml file: params.yaml loaded successfully]
+[2025-03-18 10:31:32,059:INFO: common:yaml file: schema.yaml loaded successfully]
+[2025-03-18 10:31:32,059:INFO: common:created directory at: artifacts]
+[2025-03-18 10:31:32,059:INFO: common:created directory at: artifacts/data_validation]
+[2025-03-18 10:31:32,103:INFO: main:>>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2025-03-18 10:31:32,103:INFO: main:>>>>>> stage Data Transformation stage started <<<<<<]
+[2025-03-18 10:31:32,103:INFO: common:yaml file: config\config.yaml loaded successfully]
+[2025-03-18 10:31:32,109:INFO: common:yaml file: params.yaml loaded successfully]
+[2025-03-18 10:31:32,110:INFO: common:yaml file: schema.yaml loaded successfully]
+[2025-03-18 10:31:32,111:INFO: common:created directory at: artifacts]
+[2025-03-18 10:31:32,111:INFO: common:created directory at: artifacts/data_transformation]
+[2025-03-18 10:31:32,131:INFO: data_transformation:Splited data into training and test sets]
+[2025-03-18 10:31:32,131:INFO: data_transformation:(1199, 12)]
+[2025-03-18 10:31:32,131:INFO: data_transformation:(400, 12)]
+[2025-03-18 10:31:32,131:INFO: main:>>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2025-03-18 10:31:32,131:INFO: main:>>>>>> stage Model Trainer stage started <<<<<<]
+[2025-03-18 10:31:32,133:INFO: common:yaml file: config\config.yaml loaded successfully]
+[2025-03-18 10:31:32,133:INFO: common:yaml file: params.yaml loaded successfully]
+[2025-03-18 10:31:32,133:INFO: common:yaml file: schema.yaml loaded successfully]
+[2025-03-18 10:31:32,133:INFO: common:created directory at: artifacts]
+[2025-03-18 10:31:32,133:INFO: common:created directory at: artifacts/model_trainer]
+[2025-03-18 10:31:32,189:INFO: main:>>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2025-03-18 10:31:32,189:INFO: main:>>>>>> stage Model evaluation stage started <<<<<<]
+[2025-03-18 10:31:32,189:INFO: common:yaml file: config\config.yaml loaded successfully]
+[2025-03-18 10:31:32,189:INFO: common:yaml file: params.yaml loaded successfully]
+[2025-03-18 10:31:32,189:INFO: common:yaml file: schema.yaml loaded successfully]
+[2025-03-18 10:31:32,198:INFO: common:created directory at: artifacts]
+[2025-03-18 10:31:32,200:INFO: common:created directory at: artifacts]
+[2025-03-18 10:31:32,201:INFO: common:created directory at: artifacts/model_evaluation]
+[2025-03-18 10:31:33,495:ERROR: main:API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: '']
+Traceback (most recent call last):
+  File "d:\KC\End to End MLflow\main.py", line 57, in <module>
+    data_ingestion.main()
+  File "d:\kc\end to end mlflow\src\mlproject\pipeline\stage05_model_evaluation.py", line 15, in main
+    model_evaluation_config.log_into_mlflow()
+  File "d:\kc\end to end mlflow\src\mlproject\components\model_evaluation.py", line 40, in log_into_mlflow
+    with mlflow.start_run():
+         ^^^^^^^^^^^^^^^^^^
+  File "D:\KC\End to End MLflow\.venv\Lib\site-packages\mlflow\tracking\fluent.py", line 446, in start_run
+    active_run_obj = client.create_run(
+                     ^^^^^^^^^^^^^^^^^^
+  File "D:\KC\End to End MLflow\.venv\Lib\site-packages\mlflow\tracking\client.py", line 418, in create_run
+    return self._tracking_client.create_run(experiment_id, start_time, tags, run_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\KC\End to End MLflow\.venv\Lib\site-packages\mlflow\tracking\_tracking_service\client.py", line 170, in create_run
+    return self.store.create_run(
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\KC\End to End MLflow\.venv\Lib\site-packages\mlflow\store\tracking\rest_store.py", line 220, in create_run
+    response_proto = self._call_endpoint(CreateRun, req_body)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\KC\End to End MLflow\.venv\Lib\site-packages\mlflow\store\tracking\rest_store.py", line 90, in _call_endpoint
+    return call_endpoint(self.get_host_creds(), endpoint, method, json_body, response_proto)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\KC\End to End MLflow\.venv\Lib\site-packages\mlflow\utils\rest_utils.py", line 392, in call_endpoint
+    response = verify_rest_response(response, endpoint)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\KC\End to End MLflow\.venv\Lib\site-packages\mlflow\utils\rest_utils.py", line 255, in verify_rest_response
+    raise MlflowException(
+mlflow.exceptions.MlflowException: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+[2025-03-18 10:34:05,380:INFO: main:Welcome to our custom login]
+[2025-03-18 10:34:05,380:INFO: main:>>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-03-18 10:34:05,380:INFO: common:yaml file: config\config.yaml loaded successfully]
+[2025-03-18 10:34:05,380:INFO: common:yaml file: params.yaml loaded successfully]
+[2025-03-18 10:34:05,380:INFO: common:yaml file: schema.yaml loaded successfully]
+[2025-03-18 10:34:05,380:INFO: common:created directory at: artifacts]
+[2025-03-18 10:34:05,388:INFO: common:created directory at: artifacts/data_ingestion]
+[2025-03-18 10:34:05,388:INFO: data_ingestion:File already exists of size: ~ 26 KB]
+[2025-03-18 10:34:05,393:INFO: main:>>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-03-18 10:34:05,393:INFO: main:>>>>>> stage Data Validation stage started <<<<<<]
+[2025-03-18 10:34:05,399:INFO: common:yaml file: config\config.yaml loaded successfully]
+[2025-03-18 10:34:05,401:INFO: common:yaml file: params.yaml loaded successfully]
+[2025-03-18 10:34:05,401:INFO: common:yaml file: schema.yaml loaded successfully]
+[2025-03-18 10:34:05,403:INFO: common:created directory at: artifacts]
+[2025-03-18 10:34:05,404:INFO: common:created directory at: artifacts/data_validation]
+[2025-03-18 10:34:05,459:INFO: main:>>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2025-03-18 10:34:05,459:INFO: main:>>>>>> stage Data Transformation stage started <<<<<<]
+[2025-03-18 10:34:05,459:INFO: common:yaml file: config\config.yaml loaded successfully]
+[2025-03-18 10:34:05,467:INFO: common:yaml file: params.yaml loaded successfully]
+[2025-03-18 10:34:05,468:INFO: common:yaml file: schema.yaml loaded successfully]
+[2025-03-18 10:34:05,470:INFO: common:created directory at: artifacts]
+[2025-03-18 10:34:05,470:INFO: common:created directory at: artifacts/data_transformation]
+[2025-03-18 10:34:05,492:INFO: data_transformation:Splited data into training and test sets]
+[2025-03-18 10:34:05,492:INFO: data_transformation:(1199, 12)]
+[2025-03-18 10:34:05,492:INFO: data_transformation:(400, 12)]
+[2025-03-18 10:34:05,492:INFO: main:>>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2025-03-18 10:34:05,492:INFO: main:>>>>>> stage Model Trainer stage started <<<<<<]
+[2025-03-18 10:34:05,492:INFO: common:yaml file: config\config.yaml loaded successfully]
+[2025-03-18 10:34:05,492:INFO: common:yaml file: params.yaml loaded successfully]
+[2025-03-18 10:34:05,492:INFO: common:yaml file: schema.yaml loaded successfully]
+[2025-03-18 10:34:05,492:INFO: common:created directory at: artifacts]
+[2025-03-18 10:34:05,492:INFO: common:created directory at: artifacts/model_trainer]
+[2025-03-18 10:34:05,555:INFO: main:>>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2025-03-18 10:34:05,555:INFO: main:>>>>>> stage Model evaluation stage started <<<<<<]
+[2025-03-18 10:34:05,555:INFO: common:yaml file: config\config.yaml loaded successfully]
+[2025-03-18 10:34:05,555:INFO: common:yaml file: params.yaml loaded successfully]
+[2025-03-18 10:34:05,566:INFO: common:yaml file: schema.yaml loaded successfully]
+[2025-03-18 10:34:05,567:INFO: common:created directory at: artifacts]
+[2025-03-18 10:34:05,568:INFO: common:created directory at: artifacts]
+[2025-03-18 10:34:05,568:INFO: common:created directory at: artifacts/model_evaluation]
+[2025-03-18 10:34:06,740:ERROR: main:API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: '']
+Traceback (most recent call last):
+  File "d:\KC\End to End MLflow\main.py", line 57, in <module>
+    data_ingestion.main()
+  File "d:\kc\end to end mlflow\src\mlproject\pipeline\stage05_model_evaluation.py", line 15, in main
+    model_evaluation_config.log_into_mlflow()
+  File "d:\kc\end to end mlflow\src\mlproject\components\model_evaluation.py", line 40, in log_into_mlflow
+    with mlflow.start_run():
+         ^^^^^^^^^^^^^^^^^^
+  File "D:\KC\End to End MLflow\.venv\Lib\site-packages\mlflow\tracking\fluent.py", line 446, in start_run
+    active_run_obj = client.create_run(
+                     ^^^^^^^^^^^^^^^^^^
+  File "D:\KC\End to End MLflow\.venv\Lib\site-packages\mlflow\tracking\client.py", line 418, in create_run
+    return self._tracking_client.create_run(experiment_id, start_time, tags, run_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\KC\End to End MLflow\.venv\Lib\site-packages\mlflow\tracking\_tracking_service\client.py", line 170, in create_run
+    return self.store.create_run(
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\KC\End to End MLflow\.venv\Lib\site-packages\mlflow\store\tracking\rest_store.py", line 220, in create_run
+    response_proto = self._call_endpoint(CreateRun, req_body)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\KC\End to End MLflow\.venv\Lib\site-packages\mlflow\store\tracking\rest_store.py", line 90, in _call_endpoint
+    return call_endpoint(self.get_host_creds(), endpoint, method, json_body, response_proto)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\KC\End to End MLflow\.venv\Lib\site-packages\mlflow\utils\rest_utils.py", line 392, in call_endpoint
+    response = verify_rest_response(response, endpoint)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\KC\End to End MLflow\.venv\Lib\site-packages\mlflow\utils\rest_utils.py", line 255, in verify_rest_response
+    raise MlflowException(
+mlflow.exceptions.MlflowException: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+[2025-03-18 10:36:10,724:INFO: common:yaml file: config\config.yaml loaded successfully]
+[2025-03-18 10:36:10,729:INFO: common:yaml file: params.yaml loaded successfully]
+[2025-03-18 10:36:10,733:INFO: common:yaml file: schema.yaml loaded successfully]
+[2025-03-18 10:36:10,735:INFO: common:created directory at: artifacts]
+[2025-03-18 10:36:10,740:INFO: common:created directory at: artifacts]
+[2025-03-18 10:36:10,741:INFO: common:created directory at: artifacts/model_evaluation]
+[2025-03-18 10:36:11,919:INFO: common:json file saved at: artifacts\model_evaluation\metrics.json]
+[2025-03-18 10:56:01,432:INFO: main:Welcome to our custom login]
+[2025-03-18 10:56:01,432:INFO: main:>>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-03-18 10:56:01,476:INFO: common:yaml file: config\config.yaml loaded successfully]
+[2025-03-18 10:56:01,479:INFO: common:yaml file: params.yaml loaded successfully]
+[2025-03-18 10:56:01,479:INFO: common:yaml file: schema.yaml loaded successfully]
+[2025-03-18 10:56:01,479:INFO: common:created directory at: artifacts]
+[2025-03-18 10:56:01,479:INFO: common:created directory at: artifacts/data_ingestion]
+[2025-03-18 10:56:01,479:INFO: data_ingestion:File already exists of size: ~ 26 KB]
+[2025-03-18 10:56:01,479:INFO: main:>>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-03-18 10:56:01,479:INFO: main:>>>>>> stage Data Validation stage started <<<<<<]
+[2025-03-18 10:56:01,488:INFO: common:yaml file: config\config.yaml loaded successfully]
+[2025-03-18 10:56:01,488:INFO: common:yaml file: params.yaml loaded successfully]
+[2025-03-18 10:56:01,488:INFO: common:yaml file: schema.yaml loaded successfully]
+[2025-03-18 10:56:01,488:INFO: common:created directory at: artifacts]
+[2025-03-18 10:56:01,488:INFO: common:created directory at: artifacts/data_validation]
+[2025-03-18 10:56:01,546:INFO: main:>>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2025-03-18 10:56:01,546:INFO: main:>>>>>> stage Data Transformation stage started <<<<<<]
+[2025-03-18 10:56:01,563:INFO: common:yaml file: config\config.yaml loaded successfully]
+[2025-03-18 10:56:01,566:INFO: common:yaml file: params.yaml loaded successfully]
+[2025-03-18 10:56:01,566:INFO: common:yaml file: schema.yaml loaded successfully]
+[2025-03-18 10:56:01,566:INFO: common:created directory at: artifacts]
+[2025-03-18 10:56:01,566:INFO: common:created directory at: artifacts/data_transformation]
+[2025-03-18 10:56:01,592:INFO: data_transformation:Splited data into training and test sets]
+[2025-03-18 10:56:01,592:INFO: data_transformation:(1199, 12)]
+[2025-03-18 10:56:01,592:INFO: data_transformation:(400, 12)]
+[2025-03-18 10:56:01,592:INFO: main:>>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2025-03-18 10:56:01,592:INFO: main:>>>>>> stage Model Trainer stage started <<<<<<]
+[2025-03-18 10:56:01,592:INFO: common:yaml file: config\config.yaml loaded successfully]
+[2025-03-18 10:56:01,592:INFO: common:yaml file: params.yaml loaded successfully]
+[2025-03-18 10:56:01,592:INFO: common:yaml file: schema.yaml loaded successfully]
+[2025-03-18 10:56:01,592:INFO: common:created directory at: artifacts]
+[2025-03-18 10:56:01,592:INFO: common:created directory at: artifacts/model_trainer]
+[2025-03-18 10:56:01,657:INFO: main:>>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2025-03-18 10:56:01,657:INFO: main:>>>>>> stage Model evaluation stage started <<<<<<]
+[2025-03-18 10:56:01,657:INFO: common:yaml file: config\config.yaml loaded successfully]
+[2025-03-18 10:56:01,670:INFO: common:yaml file: params.yaml loaded successfully]
+[2025-03-18 10:56:01,674:INFO: common:yaml file: schema.yaml loaded successfully]
+[2025-03-18 10:56:01,674:INFO: common:created directory at: artifacts]
+[2025-03-18 10:56:01,674:INFO: common:created directory at: artifacts]
+[2025-03-18 10:56:01,674:INFO: common:created directory at: artifacts/model_evaluation]
+[2025-03-18 10:56:03,120:ERROR: main:API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: '']
+Traceback (most recent call last):
+  File "d:\KC\End to End MLflow\main.py", line 57, in <module>
+    data_ingestion.main()
+  File "d:\kc\end to end mlflow\src\mlproject\pipeline\stage05_model_evaluation.py", line 15, in main
+    model_evaluation_config.log_into_mlflow()
+  File "d:\kc\end to end mlflow\src\mlproject\components\model_evaluation.py", line 39, in log_into_mlflow
+    with mlflow.start_run():
+         ^^^^^^^^^^^^^^^^^^
+  File "D:\KC\End to End MLflow\.venv\Lib\site-packages\mlflow\tracking\fluent.py", line 446, in start_run
+    active_run_obj = client.create_run(
+                     ^^^^^^^^^^^^^^^^^^
+  File "D:\KC\End to End MLflow\.venv\Lib\site-packages\mlflow\tracking\client.py", line 418, in create_run
+    return self._tracking_client.create_run(experiment_id, start_time, tags, run_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\KC\End to End MLflow\.venv\Lib\site-packages\mlflow\tracking\_tracking_service\client.py", line 170, in create_run
+    return self.store.create_run(
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\KC\End to End MLflow\.venv\Lib\site-packages\mlflow\store\tracking\rest_store.py", line 220, in create_run
+    response_proto = self._call_endpoint(CreateRun, req_body)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\KC\End to End MLflow\.venv\Lib\site-packages\mlflow\store\tracking\rest_store.py", line 90, in _call_endpoint
+    return call_endpoint(self.get_host_creds(), endpoint, method, json_body, response_proto)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\KC\End to End MLflow\.venv\Lib\site-packages\mlflow\utils\rest_utils.py", line 392, in call_endpoint
+    response = verify_rest_response(response, endpoint)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\KC\End to End MLflow\.venv\Lib\site-packages\mlflow\utils\rest_utils.py", line 255, in verify_rest_response
+    raise MlflowException(
+mlflow.exceptions.MlflowException: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+[2025-03-18 10:57:14,767:INFO: main:Welcome to our custom login]
+[2025-03-18 10:57:14,774:INFO: main:>>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-03-18 10:57:14,774:INFO: common:yaml file: config\config.yaml loaded successfully]
+[2025-03-18 10:57:14,774:INFO: common:yaml file: params.yaml loaded successfully]
+[2025-03-18 10:57:14,774:INFO: common:yaml file: schema.yaml loaded successfully]
+[2025-03-18 10:57:14,774:INFO: common:created directory at: artifacts]
+[2025-03-18 10:57:14,774:INFO: common:created directory at: artifacts/data_ingestion]
+[2025-03-18 10:57:14,781:INFO: data_ingestion:File already exists of size: ~ 26 KB]
+[2025-03-18 10:57:14,784:INFO: main:>>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-03-18 10:57:14,784:INFO: main:>>>>>> stage Data Validation stage started <<<<<<]
+[2025-03-18 10:57:14,790:INFO: common:yaml file: config\config.yaml loaded successfully]
+[2025-03-18 10:57:14,793:INFO: common:yaml file: params.yaml loaded successfully]
+[2025-03-18 10:57:14,793:INFO: common:yaml file: schema.yaml loaded successfully]
+[2025-03-18 10:57:14,793:INFO: common:created directory at: artifacts]
+[2025-03-18 10:57:14,793:INFO: common:created directory at: artifacts/data_validation]
+[2025-03-18 10:57:14,859:INFO: main:>>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2025-03-18 10:57:14,859:INFO: main:>>>>>> stage Data Transformation stage started <<<<<<]
+[2025-03-18 10:57:14,867:INFO: common:yaml file: config\config.yaml loaded successfully]
+[2025-03-18 10:57:14,869:INFO: common:yaml file: params.yaml loaded successfully]
+[2025-03-18 10:57:14,872:INFO: common:yaml file: schema.yaml loaded successfully]
+[2025-03-18 10:57:14,873:INFO: common:created directory at: artifacts]
+[2025-03-18 10:57:14,873:INFO: common:created directory at: artifacts/data_transformation]
+[2025-03-18 10:57:14,894:INFO: data_transformation:Splited data into training and test sets]
+[2025-03-18 10:57:14,894:INFO: data_transformation:(1199, 12)]
+[2025-03-18 10:57:14,900:INFO: data_transformation:(400, 12)]
+[2025-03-18 10:57:14,901:INFO: main:>>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2025-03-18 10:57:14,901:INFO: main:>>>>>> stage Model Trainer stage started <<<<<<]
+[2025-03-18 10:57:14,901:INFO: common:yaml file: config\config.yaml loaded successfully]
+[2025-03-18 10:57:14,906:INFO: common:yaml file: params.yaml loaded successfully]
+[2025-03-18 10:57:14,909:INFO: common:yaml file: schema.yaml loaded successfully]
+[2025-03-18 10:57:14,909:INFO: common:created directory at: artifacts]
+[2025-03-18 10:57:14,909:INFO: common:created directory at: artifacts/model_trainer]
+[2025-03-18 10:57:14,968:INFO: main:>>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2025-03-18 10:57:14,968:INFO: main:>>>>>> stage Model evaluation stage started <<<<<<]
+[2025-03-18 10:57:14,971:INFO: common:yaml file: config\config.yaml loaded successfully]
+[2025-03-18 10:57:14,971:INFO: common:yaml file: params.yaml loaded successfully]
+[2025-03-18 10:57:14,977:INFO: common:yaml file: schema.yaml loaded successfully]
+[2025-03-18 10:57:14,980:INFO: common:created directory at: artifacts]
+[2025-03-18 10:57:14,980:INFO: common:created directory at: artifacts]
+[2025-03-18 10:57:14,980:INFO: common:created directory at: artifacts/model_evaluation]
+[2025-03-18 10:57:16,392:ERROR: main:API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: '']
+Traceback (most recent call last):
+  File "d:\KC\End to End MLflow\main.py", line 57, in <module>
+    data_ingestion.main()
+  File "d:\kc\end to end mlflow\src\mlproject\pipeline\stage05_model_evaluation.py", line 15, in main
+    model_evaluation_config.log_into_mlflow()
+  File "d:\kc\end to end mlflow\src\mlproject\components\model_evaluation.py", line 39, in log_into_mlflow
+    with mlflow.start_run():
+         ^^^^^^^^^^^^^^^^^^
+  File "D:\KC\End to End MLflow\.venv\Lib\site-packages\mlflow\tracking\fluent.py", line 446, in start_run
+    active_run_obj = client.create_run(
+                     ^^^^^^^^^^^^^^^^^^
+  File "D:\KC\End to End MLflow\.venv\Lib\site-packages\mlflow\tracking\client.py", line 418, in create_run
+    return self._tracking_client.create_run(experiment_id, start_time, tags, run_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\KC\End to End MLflow\.venv\Lib\site-packages\mlflow\tracking\_tracking_service\client.py", line 170, in create_run
+    return self.store.create_run(
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\KC\End to End MLflow\.venv\Lib\site-packages\mlflow\store\tracking\rest_store.py", line 220, in create_run
+    response_proto = self._call_endpoint(CreateRun, req_body)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\KC\End to End MLflow\.venv\Lib\site-packages\mlflow\store\tracking\rest_store.py", line 90, in _call_endpoint
+    return call_endpoint(self.get_host_creds(), endpoint, method, json_body, response_proto)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\KC\End to End MLflow\.venv\Lib\site-packages\mlflow\utils\rest_utils.py", line 392, in call_endpoint
+    response = verify_rest_response(response, endpoint)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\KC\End to End MLflow\.venv\Lib\site-packages\mlflow\utils\rest_utils.py", line 255, in verify_rest_response
+    raise MlflowException(
+mlflow.exceptions.MlflowException: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+[2025-03-18 11:11:46,071:INFO: main:Welcome to our custom login]
+[2025-03-18 11:11:46,071:INFO: main:>>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-03-18 11:11:46,075:INFO: common:yaml file: config\config.yaml loaded successfully]
+[2025-03-18 11:11:46,084:INFO: common:yaml file: params.yaml loaded successfully]
+[2025-03-18 11:11:46,091:INFO: common:yaml file: schema.yaml loaded successfully]
+[2025-03-18 11:11:46,092:INFO: common:created directory at: artifacts]
+[2025-03-18 11:11:46,092:INFO: common:created directory at: artifacts/data_ingestion]
+[2025-03-18 11:11:47,084:INFO: data_ingestion:artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 26176
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "f751ec0917e15a3dc07c3094a49fb99713109dd8a9f29150bb5d187ec17facdf"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 187C:23CBE2:3B198B:9FEFA2:67D8FB8C
+Accept-Ranges: bytes
+Date: Tue, 18 Mar 2025 05:41:47 GMT
+Via: 1.1 varnish
+X-Served-By: cache-del21723-DEL
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1742276507.019127,VS0,VE317
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 0ca8595a3d50f843b45890abf2d1cb2a64349308
+Expires: Tue, 18 Mar 2025 05:46:47 GMT
+Source-Age: 0
+
+]
+[2025-03-18 11:11:47,106:INFO: main:>>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-03-18 11:11:47,106:INFO: main:>>>>>> stage Data Validation stage started <<<<<<]
+[2025-03-18 11:11:47,110:INFO: common:yaml file: config\config.yaml loaded successfully]
+[2025-03-18 11:11:47,112:INFO: common:yaml file: params.yaml loaded successfully]
+[2025-03-18 11:11:47,114:INFO: common:yaml file: schema.yaml loaded successfully]
+[2025-03-18 11:11:47,115:INFO: common:created directory at: artifacts]
+[2025-03-18 11:11:47,116:INFO: common:created directory at: artifacts/data_validation]
+[2025-03-18 11:11:47,144:INFO: main:>>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2025-03-18 11:11:47,144:INFO: main:>>>>>> stage Data Transformation stage started <<<<<<]
+[2025-03-18 11:11:47,148:INFO: common:yaml file: config\config.yaml loaded successfully]
+[2025-03-18 11:11:47,148:INFO: common:yaml file: params.yaml loaded successfully]
+[2025-03-18 11:11:47,152:INFO: common:yaml file: schema.yaml loaded successfully]
+[2025-03-18 11:11:47,153:INFO: common:created directory at: artifacts]
+[2025-03-18 11:11:47,154:INFO: common:created directory at: artifacts/data_transformation]
+[2025-03-18 11:11:47,165:INFO: data_transformation:Splited data into training and test sets]
+[2025-03-18 11:11:47,165:INFO: data_transformation:(1199, 12)]
+[2025-03-18 11:11:47,165:INFO: data_transformation:(400, 12)]
+[2025-03-18 11:11:47,165:INFO: main:>>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2025-03-18 11:11:47,165:INFO: main:>>>>>> stage Model Trainer stage started <<<<<<]
+[2025-03-18 11:11:47,165:INFO: common:yaml file: config\config.yaml loaded successfully]
+[2025-03-18 11:11:47,165:INFO: common:yaml file: params.yaml loaded successfully]
+[2025-03-18 11:11:47,179:INFO: common:yaml file: schema.yaml loaded successfully]
+[2025-03-18 11:11:47,180:INFO: common:created directory at: artifacts]
+[2025-03-18 11:11:47,181:INFO: common:created directory at: artifacts/model_trainer]
+[2025-03-18 11:11:47,220:INFO: main:>>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2025-03-18 11:11:47,220:INFO: main:>>>>>> stage Model evaluation stage started <<<<<<]
+[2025-03-18 11:11:47,220:INFO: common:yaml file: config\config.yaml loaded successfully]
+[2025-03-18 11:11:47,220:INFO: common:yaml file: params.yaml loaded successfully]
+[2025-03-18 11:11:47,220:INFO: common:yaml file: schema.yaml loaded successfully]
+[2025-03-18 11:11:47,220:INFO: common:created directory at: artifacts]
+[2025-03-18 11:11:47,220:INFO: common:created directory at: artifacts]
+[2025-03-18 11:11:47,227:INFO: common:created directory at: artifacts/model_evaluation]
+[2025-03-18 11:11:48,362:INFO: common:json file saved at: artifacts\model_evaluation\metrics.json]
+[2025-03-18 11:12:02,570:INFO: main:>>>>>> stage Model evaluation stage completed <<<<<<
+
+x==========x]
+[2025-03-18 11:55:25,581:INFO: _internal:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.36:8080]
+[2025-03-18 11:55:25,581:INFO: _internal:[33mPress CTRL+C to quit[0m]
+[2025-03-18 11:55:32,186:INFO: _internal:127.0.0.1 - - [18/Mar/2025 11:55:32] "GET / HTTP/1.1" 200 -]
+[2025-03-18 11:55:32,249:INFO: _internal:127.0.0.1 - - [18/Mar/2025 11:55:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2025-03-18 11:56:16,383:INFO: _internal:127.0.0.1 - - [18/Mar/2025 11:56:16] "POST /predict HTTP/1.1" 200 -]
+[2025-03-18 11:59:20,623:INFO: _internal:127.0.0.1 - - [18/Mar/2025 11:59:20] "POST /predict HTTP/1.1" 200 -]
+[2025-03-18 12:09:41,157:INFO: _internal:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.36:8080]
+[2025-03-18 12:09:41,157:INFO: _internal:[33mPress CTRL+C to quit[0m]
+[2025-03-18 12:09:46,199:INFO: _internal:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.36:8080]
+[2025-03-18 12:09:46,199:INFO: _internal:[33mPress CTRL+C to quit[0m]
+[2025-03-18 12:10:09,401:INFO: _internal:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.36:8080]
+[2025-03-18 12:10:09,406:INFO: _internal:[33mPress CTRL+C to quit[0m]
+[2025-03-18 12:10:23,313:INFO: _internal:127.0.0.1 - - [18/Mar/2025 12:10:23] "GET / HTTP/1.1" 200 -]
+[2025-03-18 12:10:23,388:INFO: _internal:127.0.0.1 - - [18/Mar/2025 12:10:23] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2025-03-18 12:11:33,658:INFO: _internal:127.0.0.1 - - [18/Mar/2025 12:11:33] "POST /predict HTTP/1.1" 200 -]

@@ -6,3 +6,35 @@
 [2025-03-15 13:46:24,132:INFO: 4188422013:Splited data into training and test sets]
 [2025-03-15 13:46:24,132:INFO: 4188422013:(1199, 12)]
 [2025-03-15 13:46:24,138:INFO: 4188422013:(400, 12)]
+[2025-03-18 10:20:19,992:INFO: common:yaml file: config\config.yaml loaded successfully]
+[2025-03-18 10:20:19,996:INFO: common:yaml file: params.yaml loaded successfully]
+[2025-03-18 10:20:19,998:INFO: common:yaml file: schema.yaml loaded successfully]
+[2025-03-18 10:20:20,002:INFO: common:created directory at: artifacts]
+[2025-03-18 10:20:20,002:INFO: common:created directory at: artifacts/data_ingestion]
+[2025-03-18 10:20:21,100:INFO: 832124254:artifacts/data_ingestion/data.zip downloaded! with following info: 
+Connection: close
+Content-Length: 26176
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "f751ec0917e15a3dc07c3094a49fb99713109dd8a9f29150bb5d187ec17facdf"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 187C:23CBE2:3B198B:9FEFA2:67D8FB8C
+Accept-Ranges: bytes
+Date: Tue, 18 Mar 2025 04:50:21 GMT
+Via: 1.1 varnish
+X-Served-By: cache-del21720-DEL
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1742273421.859680,VS0,VE506
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: bed8f0f1e7a74ae44630e9eb49bb1e099c152413
+Expires: Tue, 18 Mar 2025 04:55:21 GMT
+Source-Age: 0
+
+]

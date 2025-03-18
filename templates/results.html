@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Wine Quality Prediction</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        a {
+            text-decoration: none;
+            color: blue;
+        }
+
+        .menu {
+            float: right;
+            border: 1px solid black;
+            padding: 5px 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        h1 {
+            font-size: 40px;
+            font-weight: bold;
+        }
+
+        .social-icons {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .social-icons li {
+            margin: 15px 0;
+        }
+
+        .icon {
+            display: inline-block;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: blue;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .icon img {
+            width: 25px;
+            height: 25px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <a href="/">Home</a>
+    <div class="menu">Menu ☰</div>
+
+    <!-- Prediction Section -->
+    <h1>Wine Quality</h1>
+    <p>{{ prediction }}</p>
+
+    <!-- Social Media Links -->
+    <ul class="social-icons">
+        <li>
+            <a href="https://www.linkedin.com" target="_blank" class="icon">
+                <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" alt="LinkedIn">
+            </a>
+        </li>
+        <li>
+            <a href="https://www.youtube.com" target="_blank" class="icon">
+                <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/youtube.svg" alt="YouTube">
+            </a>
+        </li>
+        <li>
+            <a href="https://www.github.com" target="_blank" class="icon">
+                <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/github.svg" alt="GitHub">
+            </a>
+        </li>
+    </ul>
+
+</body>
+
+</html>
